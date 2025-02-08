@@ -7,3 +7,23 @@ body {
     /* usando a variável global no bg */
     /* background-color: var(--variable-example); */
 }
+
+.hero {
+    background: url(../assets/img/illustration.svg);
+    margin-top: 50px;
+    margin-bottom: auto;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    @media (max-width:779px) {
+        .hero {
+        background-repeat: no-repeat;
+        background-position: top;
+        }
+
+    }
