@@ -27,3 +27,11 @@ body {
         }
 
     }
+    /* Altera a cor dos ícones dos botões do carrossel para preto */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: brightness(0) invert(0); /* Transforma o ícone em preto */
+}
+/* brightness(0) define o brilho do ícone para 0, tornando-o preto.
+
+invert(0) garante que o ícone não seja invertido. */
